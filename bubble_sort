@@ -1,7 +1,7 @@
-def bubble_sort(lst):
-    '''сортировка списка lst методом пузырька'''
-    for i in range(1, len(lst)):
-        for j in range(len(lst) - i):
-            if lst[j] > lst[j + 1]:
-                lst[j], lst[j + 1] = lst[j + 1], lst[j]
-    return lst
+def bubble_sort(A):
+    '''сортировка пузырьком'''
+    for i in range(1, len(A)):
+        for j in range(len(A) - i):
+            if A[j] > A[j + 1]:
+                A[j], A[j + 1] = A[j + 1], A[j]
+    return A

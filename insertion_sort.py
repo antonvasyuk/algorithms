@@ -1,5 +1,5 @@
 def insertion_sort(A):
-    ''' сортировка вставками'''
+    ''' сортировка вставками '''
     for i in range(1, len(A)):
         x = A[i]
         j = i - 1
